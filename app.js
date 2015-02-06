@@ -7,7 +7,6 @@ var express = require('express');
 var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars');
-var add = require('add');
 
 var index = require('./routes/index');
 var add = require('./routes/add');
